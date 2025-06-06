@@ -216,7 +216,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/banner_13.gif",
       categories: [
         {
           name: "social media",
@@ -233,23 +233,11 @@ const default_configuration = {
               icon: "brand-facebook",
               icon_color: palette.peach,
             },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
           ],
         },
         {
           name: "gaming",
           links: [
-            {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
             {
               name: "steam",
               url: "https://store.steampowered.com",
@@ -262,34 +250,16 @@ const default_configuration = {
               icon: "brand-fortnite",
               icon_color: palette.red,
             },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
-            },
           ],
         },
         {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.green,
-            },
-            {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
             },
             {
               name: "kyivstar",
