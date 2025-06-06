@@ -214,7 +214,7 @@ const default_configuration = {
             {
               name: "Vk",
               url: "https://vk.com",
-              icon: "message-circle",
+              icon: "brand-vk",
               icon_color: palette.blue,
             },
           ],
