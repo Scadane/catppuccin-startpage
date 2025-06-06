@@ -3,7 +3,7 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
-const preferredDarkTheme = latte;
+const preferredDarkTheme = macchiato;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
@@ -27,7 +27,7 @@ const default_configuration = {
   ],
   search: {
     engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
+      p: ["https://nd.umschool.net/lesson/278569", "Umscul"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
