@@ -2,9 +2,10 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
-const themeName = localStorage.getItem("theme") || "mocha";
-let palette = palettes[themeName] || palettes["mocha"];
-setTheme(themeName); // обновит `<html>` с переменными
+const preferredLightTheme = latte;
+const preferredDarkTheme = macchiato;
+
+let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
