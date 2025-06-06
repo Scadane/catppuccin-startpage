@@ -46,24 +46,7 @@ const default_configuration = {
       background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
-          name: "bookmarks",
-          links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
-            },
-          ],
-        },
-        {
-          name: "workspace",
+          name: "Работа",
           links: [
             {
               name: "gmail",
@@ -92,7 +75,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "media",
+          name: "Медиа",
           links: [
             {
               name: "уп",
@@ -133,7 +116,7 @@ const default_configuration = {
       background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
-          name: "development",
+          name: "Разработка",
           links: [
             {
               name: "github",
@@ -156,7 +139,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "challenges",
+          name: "Соревнования",
           links: [
             {
               name: "kaggle",
@@ -185,7 +168,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "resources",
+          name: "Ресурсы",
           links: [
             {
               name: "dou",
@@ -216,7 +199,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "Отдых",
+      name: "Chill",
       background_url: "src/img/banners/banner_15.gif",
       categories: [
         {
@@ -226,7 +209,7 @@ const default_configuration = {
               name: "telegram",
               url: "https://web.telegram.org",
               icon: "brand-telegram",
-              icon_color: palette.green,
+              icon_color: palette.blue,
             },
             {
               name: "Vk",
