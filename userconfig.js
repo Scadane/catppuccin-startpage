@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "Nizniy Novgorod",
+    location: "nizhny novgorod",
     scale: "C",
   },
   clock: {
@@ -37,7 +37,7 @@ const default_configuration = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://chat.deepseek.com/",
   openLastVisitedTab: true,
   tabs: [
     {
