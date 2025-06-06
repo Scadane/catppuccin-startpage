@@ -3,14 +3,14 @@
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
 const preferredLightTheme = latte;
-const preferredDarkTheme = mocha;
+const preferredDarkTheme = latte;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Nizniy Novgorod",
     scale: "C",
   },
   clock: {
