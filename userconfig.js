@@ -27,9 +27,10 @@ const default_configuration = {
   ],
   search: {
     engines: {
-      p: ["https://nd.umschool.net/lesson/278569", "Umscul"],
+      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
+      y: ["https://ya.ru/search/?text=", "Yandex"],
     },
   },
   keybindings: {
