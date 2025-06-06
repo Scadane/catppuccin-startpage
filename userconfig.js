@@ -216,11 +216,11 @@ const default_configuration = {
       ],
     },
     {
-      name: "chi ll",
+      name: "Отдых",
       background_url: "src/img/banners/banner_15.gif",
       categories: [
         {
-          name: "social media",
+          name: "Соц. сети",
           links: [
             {
               name: "telegram",
@@ -229,15 +229,15 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
+              name: "Vk",
+              url: "https://vk.com",
+              icon: "message-circle",
+              icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "gaming",
+          name: "Игры",
           links: [
             {
               name: "steam",
@@ -254,7 +254,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "video",
+          name: "Видео",
           links: [
             {
               name: "youtube",
@@ -266,7 +266,7 @@ const default_configuration = {
               name: "twich",
               url: "https://www.twitch.tv/",
               icon: "brand-twitch",
-              icon_color: palette.purple,
+              icon_color: palette.mauve,
             },
           ],
         },
