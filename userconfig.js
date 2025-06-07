@@ -109,6 +109,17 @@ const default_configuration = {
             },
           ],
         },
+        {
+          name: "Дом",
+          links: [
+            {
+              name: "Home Assistant",
+              url: "http://splush.keenetic.link:8124/dashboard-unknown",
+              icon: "home",
+              icon_color: palette.green,
+            },
+          ],
+        },
       ],
     },
     {
